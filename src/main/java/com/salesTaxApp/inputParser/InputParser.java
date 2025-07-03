@@ -1,4 +1,4 @@
-package src.main.java.com.salesTaxApp.inputParser;
+package com.salesTaxApp.inputParser;
 
 import java.util.Scanner;
 

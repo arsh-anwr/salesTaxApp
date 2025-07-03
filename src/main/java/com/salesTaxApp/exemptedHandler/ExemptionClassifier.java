@@ -1,4 +1,4 @@
-package src.main.java.com.salesTaxApp.exemptedHandler;
+package com.salesTaxApp.exemptedHandler;
 
 import java.util.ArrayList;
 import java.util.List;

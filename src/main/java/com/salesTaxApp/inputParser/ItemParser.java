@@ -1,15 +1,16 @@
-package src.main.java.com.salesTaxApp.inputParser;
+package com.salesTaxApp.inputParser;
 
-import src.main.java.com.salesTaxApp.exemptedHandler.ExemptionClassifier;
-import src.main.java.com.salesTaxApp.exemptedHandler.KeywordExemptionRule;
-import src.main.java.com.salesTaxApp.models.Item;
+import com.salesTaxApp.exemptedHandler.ExemptionClassifier;
+import com.salesTaxApp.exemptedHandler.KeywordExemptionRule;
+import com.salesTaxApp.models.Item;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static src.main.java.com.salesTaxApp.models.Patterns.ITEM_PATTERN;
+import static com.salesTaxApp.models.Patterns.ITEM_PATTERN;
+
 
 public class ItemParser {
     private final ExemptionClassifier classifier;

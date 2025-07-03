@@ -1,13 +1,13 @@
 package src.test.java.com.salesTaxApp;
 
+import com.salesTaxApp.exemptedHandler.ExemptionClassifier;
+import com.salesTaxApp.exemptedHandler.KeywordExemptionRule;
+import com.salesTaxApp.inputParser.ItemParser;
+import com.salesTaxApp.models.Item;
+import com.salesTaxApp.receipt.Receipt;
+import com.salesTaxApp.taxCalculator.TaxCalculator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import src.main.java.com.salesTaxApp.exemptedHandler.ExemptionClassifier;
-import src.main.java.com.salesTaxApp.exemptedHandler.KeywordExemptionRule;
-import src.main.java.com.salesTaxApp.inputParser.ItemParser;
-import src.main.java.com.salesTaxApp.models.Item;
-import src.main.java.com.salesTaxApp.receipt.Receipt;
-import src.main.java.com.salesTaxApp.taxCalculator.TaxCalculator;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package src.main.java.com.salesTaxApp.taxCalculator;
+package com.salesTaxApp.taxCalculator;
 
-import src.main.java.com.salesTaxApp.models.Item;
+import com.salesTaxApp.models.Item;
 
 import java.util.ArrayList;
 import java.util.List;

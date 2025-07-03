@@ -1,4 +1,4 @@
-package src.main.java.com.salesTaxApp.models;
+package com.salesTaxApp.models;
 
 
 public class Patterns {

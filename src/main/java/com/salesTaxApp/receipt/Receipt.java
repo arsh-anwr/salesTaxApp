@@ -1,7 +1,7 @@
-package src.main.java.com.salesTaxApp.receipt;
+package com.salesTaxApp.receipt;
 
-import src.main.java.com.salesTaxApp.models.Item;
-import src.main.java.com.salesTaxApp.models.ReceiptItem;
+import com.salesTaxApp.models.Item;
+import com.salesTaxApp.models.ReceiptItem;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
