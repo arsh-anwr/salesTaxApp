@@ -38,4 +38,12 @@ public class Receipt {
         System.out.printf("Sales Taxes: %s%n", df.format(totalTax));
         System.out.printf("Total: %s%n", df.format(totalAmount));
     }
+
+    public double getTotalTax() {
+        return lineItems.stream().mapToDouble(ReceiptItem::getTaxAmount).sum();
+    }
+
+    public double getTotalAmount() {
+        return lineItems.stream().mapToDouble(ReceiptItem::getTotalPriceWithTax).sum();
+    }
 }
