@@ -1,0 +1,12 @@
+package src.main.java.com.salesTaxApp.models;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+public class ReceiptItem {
+    Item item;
+    double totalPriceWithTax;
+    double taxAmount;
+}
