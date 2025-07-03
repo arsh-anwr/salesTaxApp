@@ -99,7 +99,7 @@ Covers all sample scenarios with accurate tax + total validation.
 
 ## 🔧 Tech Stack
 
-- Java 17+
+- Java 23+
 - Maven
 - JUnit 5
 
